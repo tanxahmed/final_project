@@ -1,0 +1,104 @@
+/*using google fonts PT Serif*/
+@import url(http://fonts.googleapis.com/css?family=PT Serif);
+
+
+h1 {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    color: #000000  ;
+    font-size: 35px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    color: #FFE002;
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
+
+p{
+    font-family: 'PT Serif', serif;
+}
+
+body{
+   background-image:url(1055948-homer-simpson-desktop-wallpaper-1920x1200-full-hd.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position:center bottom;
+   background-attachment: fixed;
+
+}
+
+/* Quiz Classes */
+.quizContainer {
+    border-radius: 8px;
+    width: 75%;
+    margin: auto;
+    margin-top: 190px;
+    padding-top: 5px;
+    position: relative;
+
+}
+
+.nextButton{
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+    color:#FFE002;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    position: relative;
+    margin: left;
+    padding-top: 20px;
+}
+
+.question{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    color: #000000  ;
+}
+
+/*quiz message will either diaply an error or the score*/
+.quizMessage{
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: 'PT Serif', serif;
+    background-color: #FFE002;
+}
+
+.choiceList {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: #FFE002;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+}
